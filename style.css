@@ -1,0 +1,54 @@
+body{
+    background-image: url(room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding:10px;
+    height: 40vh
+}
+.right ul{
+    display: flex;
+    gap: 34px;
+}
+.right ul li{
+    list-style: none;
+    font-weight: bold;
+}
+.b{
+    color: rgb(225, 80, 12);
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.a{
+    /* border: 2px solid blue; */
+    /* box-sizing: border-box; */
+    margin: auto;
+    width: 65vh;
+    text-align: center;
+}
+.a h5{
+    font-weight: bold;
+    color: rgb(24, 147, 203);
+}
+.container ol{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.container ol li{
+    color: white;
+    border: 3px solid rgb(15, 189, 53);
+    margin: 6px;
+    padding: 8px;
+    border-radius: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+ol li:hover{
+    background-color: aqua;
+}
